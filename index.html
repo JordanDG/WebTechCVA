@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <!-- Title of Homepage -->
+    <title>Coronavirus Awareness | Home</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Corona Virus Information">
+    <meta name="keywords" content="Corona Virus,Covid19,Virus,Awareness">
+    <meta name="author" content="Jordan Da Graca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <!-- css -->
+    <link href="css/style.css" rel=stylesheet type="text/css">
+    <!-- js -->
+    <script src="script.js"></script>
+    <script src="slideshow.js"></script>
+    <!-- favicon & font -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+
+<body onload="cookiePolicy(); slideshow(); slideshow2();">
+    <header>
+        <div id="cookie_background_color" class="cookie_policy_background_color">
+        </div>
+        <div id="cookie_policy" class="cookie_policy">
+            <h1>CVA | Cookies and Privacy Policy</h1>
+            <p>CVA may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website CVA, including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the CVA) to help customize the Site and improve your experience.</p>
+            <br>
+            <p>We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification. You are encouraged to periodically review this Cookie Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Cookie Policy by your continued use of the Site after the date such revised Cookie Policy is posted.</p>
+            <br>
+            <h2>Use of cookies</h2>
+            <p>A “cookie” is a string of information which assigns you a unique identifier that we store on your computer. Your browser then provides that unique identifier to use each time you submit a query to the Site. We use cookies on the Site to, among other things, keep track of services you have used, record registration information, record your user preferences, keep you logged into the Site, facilitate purchase procedures, and track the pages you visit. Cookies help us understand how the Site is being used and improve your user experience.</p>
+            <br>
+            <h2>Types of Cookies</h2>
+            <p>The following types of cookies may be used when you visit the Site:</p>
+            <br>
+            <h3>Analytics Cookies</h3>
+            <p>Analytics cookies monitor how users reached the Site, and how they interact with and move around once on the Site. These cookies let us know what features on the Site are working the best and what features on the Site can be improved.</p>
+            <br>
+            <h3>First-Party Cookies</h3>
+            <p>Our cookies are “first-party cookies”, and can be either permanent or temporary. These are necessary cookies, without which the Site won’t work properly or be able to provide certain features and functionalities. Some of these may be manually disabled in your browser, but may affect the functionality of the Site.</p>
+            <br>
+            <h3>Personalization Cookies</h3>
+            <p>Personalization cookies are used to recognize repeat visitors to the Site. We use these cookies to record your browsing history, the pages you have visited, and your settings and preferences each time you visit the Site.</p>
+            <br>
+            <h3>Security Cookies</h3>
+            <p>Security cookies help identify and prevent security risks. We use these cookies to authenticate users and protect user data from unauthorized parties.</p>
+            <br>
+            <h3>Control of Cookies</h3>
+            <p>Most browsers are set to accept cookies by default. However, you can remove or reject cookies in your browser’s settings. Please be aware that such action could affect the availability and functionality of the Site.</p>
+            <br>
+            <h2>Privacy Policy</h2>
+            <p>For more information about how we use information collected by cookies and other tracking technologies, please refer to our Privacy Policy (found through this popup window). This Cookie Policy is part of and is incorporated into our Privacy Policy. By using the Site, you agree to be bound by this Cookie Policy and our Privacy Policy.</p>
+            <br>
+            <p class="cookie_policy_end">You can use these links to choose your next action:</p>
+            <button onclick="policyClose()" class="privacy_button">Accept and Close</button>
+            <button class="learn_button">Learn More...</button>
+            <p class="footer_cr">&copy; Jordan Da Graca, 2020</p>
+        </div>
+        <div class="header_top">
+            <img class="header_logo" src="images/CVA_Logo_Black_Transparent.png" alt="Coronavirus Awareness Logo In Black">
+            <h1 class="header_title">Corona-Virus Awareness</h1>
+            <div class="mobile_burger_menu" id="mobile_burger_menu" onclick="animationToggle()">
+                <div class="burger_menu_line1"></div>
+                <div class="burger_menu_line2"></div>
+                <div class="burger_menu_line3"></div>
+            </div>
+            <div class="mobile_nav_menu" id="mobile_nav_menu">
+                <div class="mobile_link_container">
+                    <a id="mobile_link_1" href="#link">Home</a>
+                    <a id="mobile_link_2" href="#link">Gallery</a>
+                    <a id="mobile_link_3" href="information.html">Information</a>
+                    <a id="mobile_link_4" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <ul class="header_nav">
+                <li style="border-bottom: 2px solid #0A56A6"><a href="#link">Home</a></li>
+                <li class="link_2"><a href="#link">Gallery</a></li>
+                <li class="link_3"><a href="information.html">Information</a></li>
+                <li class="link_4"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header_feature_container">
+            <div id="header_feature2" class="header_feature2">
+            </div>
+            <div id="header_feature1" class="header_feature">
+            </div>
+        </div>
+        <div class="header_feature_introduction">
+            <h1>Welcome To CVA</h1>
+            <p>Your number one source of trustworthy news, advice and guidance to keep you safe in these <br>uncertain times. Fuelled by organisations such as the NHS, WHO and GOV.uk, We pride ourselves on<br>
+                Being the largest openly available source of information to the general public regarding covid19. <br></p>
+            <p>We appreciate your feedback, the good, the bad and the ugly! Feel free to contact us below,<br>for feedback, questions or any concerns you may be having. Stay safe!</p>
+            <button>Contact us</button>
+        </div>
+    </header>
+    <section class="home_featured_video_section">
+        <div class="featured_video_frame">
+            <h1>Covid19 FAQ from the NHS...</h1>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/QV_UnPl8qMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="featured_video_text">
+            <h1>Scared of the pandemic? Fear not, we're here for you!</h1>
+            <p>Covid19 is the worst pandemic to affect us in modern day civilization. With worldwide health authorities being rendered unprepared by chokingly overwhelming budget cuts, its little wonder the world is struggling to cope. Putting all that aside, we're here to get you the facts on how to identify, tackle, eradicate and prevent any potential cases cropping up locally! To answer commonly asked questions regarding the virus, we encourage you to watch the informative featured FAQ from the NHS!</p>
+            <br>
+            <p>Presented by Nam Nguyen, a GP and clinical lead for the NHS, the short video tackles some of the most commonly asked questions about the virus, ensuring the general public are well informed. An informed nation is a safe nation. Nam is just one of the amazing individuals putting their lives on the line to tackle this pandemic!</p>
+            <img class="featured_video_text_image" src="images/NamNguyen.PNG" alt="Nam Nguyen, GP">
+            <div class="featured_video_text_image_tagline">
+                <p>Nam Nguyen, Clinical lead and GP <br>at Woodgrange Medical Practice.</p>
+            </div>
+            <p class="featured_video_text_image_stayhome">To find out how you can help, go here:</p>
+            <a href="https://www.youtube.com/watch?v=isTGA_UHH-E&feature=youtu.be&fbclid=IwAR1kywTO_vgTUJmJOrUbDokNl7AHrGh3GsFAIOXjSWOtjuc8Gp60jJwsCpE" target="_blank">
+                <img class="featured_video_image_stayhome" src="images/StayAtHome.PNG" alt="Stay At Home Video">
+                <div class="overlay">
+                    <div class="overlay_text">Coronavirus stay at home advice | NHS<br>(Link will open in a new tab)</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="home_city_facts">
+        <h1 class="home_city_facts_header">The Stats - By Location</h1>
+        <div class="home_city_facts_locations_container">
+
+            <div class="location_1">
+                <img src="images/cities/london.jpg" alt="London" id="CitySearcherImage1">
+                <div id="CitySearcherResult1" class="location_1_function_result">
+                    <h1 id="CitySearcherHeader1">united kingdom</h1>
+                    <ul id="CitySearcherFacts1">
+                        <li id="CitySearcherFact_1_1">The first confirmed cases in the UK were on January 29th.</li>
+                        <li id="CitySearcherFact_1_2">6th most infected country in the world.</li>
+                        <li id="CitySearcherFact_1_3">Under-prepared.</li>
+                    </ul>
+                    <p class="change_country" onclick="CityQueryReset1()">Change Country</p>
+                </div>
+                <form id="CitySearcherForm1">
+                    <label for="CitySearch">Search a city here:</label><br>
+                    <input type="text" id="CitySearch1" autocomplete="off" name="CitySearch" placeholder="&#32; &#128269;"><br>
+                    <input type="button" onclick="return CitySearcher1()" value="Submit" id="SubmitButton1">
+                </form>
+            </div>
+            <div class="location_2">
+                <img src="images/cities/italy.jpg" alt="italy" id="CitySearcherImage2">
+                <div id="CitySearcherResult2" class="location_2_function_result">
+                    <h1 id="CitySearcherHeader2">italy</h1>
+                    <ul id="CitySearcherFacts2">
+                        <li id="CitySearcherFact_2_1">The first confirmed cases in Italy were on January 20th.</li>
+                        <li id="CitySearcherFact_2_2">3rd most infected country in the world.</li>
+                        <li id="CitySearcherFact_2_3">very prepared.</li>
+                    </ul>
+                    <p class="change_country" onclick="CityQueryReset2()">Change Country</p>
+                </div>
+                <form id="CitySearcherForm2">
+                    <label for="CitySearch">Search a city here:</label><br>
+                    <input type="text" id="CitySearch2" autocomplete="off" name="CitySearch" placeholder="&#32; &#128269;"><br>
+                    <input type="button" onclick="return CitySearcher2()" value="Submit" id="SubmitButton2">
+                </form>
+            </div>
+            <div class="location_4">
+                <img src="images/cities/SearchQuery.png" alt="Placeholder" id="CitySearcherImage4">
+                <form id="CitySearcherForm4">
+                    <label for="CitySearch4">Search a city here:</label><br>
+                    <input type="text" id="CitySearch4" autocomplete="off" name="CitySearch4" placeholder="&#32; &#128269;"><br>
+                    <input type="button" onclick="return CitySearcher4()" value="Submit" id="SubmitButton4">
+                </form>
+                <div id="CitySearcherResult4" class="location_4_function_result">
+                    <h1 id="CitySearcherHeader4">italy</h1>
+                    <ul id="CitySearcherFacts4">
+                        <li id="CitySearcherFact_4_1"></li>
+                        <li id="CitySearcherFact_4_2"></li>
+                        <li id="CitySearcherFact_4_3"></li>
+                    </ul>
+                    <p class="change_country" onclick="CityQueryReset4()">Change Country</p>
+                </div>
+            </div>
+            <div class="location_3">
+                <img src="images/cities/spain.jpeg" alt="spain" id="CitySearcherImage3">
+                <div id="CitySearcherResult3" class="location_3_function_result">
+                    <h1 id="CitySearcherHeader3">spain</h1>
+                    <ul id="CitySearcherFacts3">
+                        <li id="CitySearcherFact_3_1">The first confirmed cases in Spain were on January 24th.</li>
+                        <li id="CitySearcherFact_3_2">2nd most infected country in the world.</li>
+                        <li id="CitySearcherFact_3_3">Moderately prepared.</li>
+                    </ul>
+                    <p class="change_country" onclick="CityQueryReset3()">Change Country</p>
+                </div>
+                <form id="CitySearcherForm3">
+                    <label for="CitySearch">Search a city here:</label><br>
+                    <input type="text" id="CitySearch3" autocomplete="off" name="CitySearch" placeholder="&#32; &#128269;"><br>
+                    <input type="button" onclick="return CitySearcher3()" value="Submit" id="SubmitButton3">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img src="images/CVA_Logo_Black_Transparent.png" alt="CVA">
+        <ul class="footer_nav">
+            <li><a class="active" href="#link">Home</a></li>
+            <li class="link_2"><a href="#link">Gallery</a></li>
+            <li class="link_3"><a href="information.html">Information</a></li>
+            <li class="link_4"><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer_cr">&copy; Jordan Da Graca, 2020</p>
+    </footer>
+</body></html>
