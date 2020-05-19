@@ -3109,7 +3109,7 @@ a:hover .overlay {
     }
 
     .information_section1_header {
-        color: green;
+        color: #000;
         opacity: 0;
         font-size: 32px;
         margin-top: 1vh;
