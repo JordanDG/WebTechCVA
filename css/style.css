@@ -265,7 +265,7 @@ header {
 }
 
 .header_feature2 {
-    background-color: green;
+    background-color: transparent;
     height: 60vh;
     width: 40vw;
     margin-right: 50vw;
